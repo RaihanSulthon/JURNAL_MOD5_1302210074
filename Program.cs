@@ -12,6 +12,9 @@ namespace JURNAL_MOD5_1302210074
             double c = double.Parse(Console.ReadLine());
 
             hitung.JumlahTigaAngka(a, b, c);
+
+            SimpleDataBase<int> data = new SimpleDataBase<int>();
+
         }
     }
 }
